@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+
+{{content}}
+
+
+{% assign thephrases = site.data.phrases | where:"section",page.number | order:"number" %}
+{% for row in thephrases %}
+
+<hr>
+<div class="audiobox">
+	<div class="number">
+		{{ row.number }}
+	</div>
+	<div class="text">
+		<span class="den">{{row.den}}<br/>
+		<span class="eng">{{row.eng}}</span>
+	</div>	
+   <div class="audio"><audio src="{{site.baseurl}}/{{site.audiopath}}/{{row.audio1}}" controls type="audio/mpeg">Your browser does not support the audio tag.</audio>
+   {% if row.audio2 %}
+   	<br><audio src="{{site.baseurl}}/{{site.audiopath}}/{{row.audio2}}" controls type="audio/mpeg">Your browser does not support the audio tag.</audio>
+   	{% endif %}
+   </div></div> 
+{% endfor %}
+
+

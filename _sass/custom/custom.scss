@@ -1,0 +1,174 @@
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+.PageNavigation .next {
+  text-align: right;
+}
+
+.PageNavigationBottom {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.PageNavigationBottom a {
+  display: block;
+  width: 33%;
+  float: left;
+  margin: 1em 0;
+}
+.PageNavigationBottom .next {
+  text-align: right;
+}
+
+.PageNavigationBottom .back {
+	text-align: center;
+}
+
+.den {font-weight: bold; }
+.eng {font-style: italic; }
+
+#info {
+  background-color: #cfc ;
+  padding: 10px ;
+  border: 10px  ;
+}
+
+// audio side-by-side
+
+.audiobox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 5px;
+}
+
+.audiobox .number{
+	flex-grow: 1 5 10%;
+	margin-right: 10px;
+	font-size: large;
+
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding-top: 2px;
+
+    background: lightgreen;
+    border: none; //2px solid #666;
+    color: #666;
+    text-align: center;
+
+    //font: 32px Arial, sans-serif;
+}
+
+.audiobox .text{
+	flex: 5 1 50%;
+	font-size: large;
+}
+
+.audiobox .audio{
+	flex: 1 1 40%
+}
+
+
+
+
+// .audiobox {
+// 	//display: block;
+// 	text-align: left;
+// 	margin-top:10px;
+// 	margin-bottom: 10px;
+// }
+// .audiobox .audio {
+// 	display: inline-block;
+// 	align: right;
+// }
+// .audiobox .text {
+// 	display: inline-block;
+// 	margin-right: 10px;
+// 	font-size: large;
+// 	width: 50%;
+// }
+// 
+// .audiobox .lettertext {
+// 	display: inline-block;
+// 	margin-right: 10px;
+// 	font-size: large;
+// 	width: 30%;
+// }
+// 
+// .audiobox .letter {
+// 	display: inline-block;
+// 	text-align: top;
+// 	font-size: xx-large;
+// 	width: 10%;
+// 	margin-right: 10px;
+// }
+// 
+// .fineprint {
+// 	font-color: #ddd;
+// 	font-size: small;
+// }
+
+
+// olga
+body
+{
+font-family: "Times New Roman, Times";
+font-size: "18px";
+text-align: "center";
+}
+
+h1
+{
+font-family: "Times New Roman, Times";
+font-style: "regular";
+font-size: "28px";
+color: "#333300";
+text-align: "center";
+}
+
+h2
+{
+font-family: "Times New Roman, Times";
+font-style: "italic";
+font-size: "18px";
+color: "#333300";
+text-align: "center";
+}
+
+a:link
+{
+font-family: "Times New Roman, Times";
+font-size: "18px";
+color: "#0033CC";
+text-align: "center";
+}
+
+a:visited
+{
+font-family: "Times New Roman, Times";
+font-size: "18px";
+color: "#0033CC";
+text-align: "center";
+}
+
+a:active
+{
+font-family: "Times New Roman, Times";
+font-size: "18px";
+color: "cyan";
+text-align: "center";
+}
+
