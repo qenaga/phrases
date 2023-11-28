@@ -75,6 +75,7 @@ PLATFORMS
 
 DEPENDENCIES
   just-the-docs (= 0.7.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.6
