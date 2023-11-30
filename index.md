@@ -21,8 +21,8 @@ Some participants at the 2004 Dena'ina Summer Institute noted that the English t
 The words and recordings here are provided by Gladys Evanoff and Alex Balluta.
 
 <div align="center">
-<img src="{{site.baeurl}}/assets/images/gladys.jpg">
-<img src="{{site.baeurl}}/assets/images/alex.jpg">
+<img src="{{site.baseurl}}/assets/images/gladys.jpg">
+<img src="{{site.baseurl}}/assets/images/alex.jpg">
 </div>
 ## Credits
 
